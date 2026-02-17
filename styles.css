@@ -73,18 +73,27 @@ li:hover{
     border: 1px solid gray;
     border-radius: 1em;
 }
+.hero-btn:hover{
+   
+    background-color: #E6533C;
+    border-radius: 2em;
+    /* padding: 0em 1em; */
+     color: white;
+     transform: scale(1.05);
+     transition: 0.80s ease;
 
+}
 .hero-img{
     position: relative;
 }
 .workout-number{
     position: absolute;
-    left: 7em;
+    left: 5em;
     top: 4em;
     font-size: 3em;
     color: white;
     /* background-color:  gray; */
-    background: rgba(128, 128, 128, 0.5);
+    background: rgba(128, 128, 128, 0.3);
     width: 3em;
     padding-left: 0.2em;
     /* padding-right: 0.2em; */
@@ -99,20 +108,43 @@ li:hover{
 .workout-text{
     font-size: 13px;
 }
+.span-circle{
+  height: 25px;
+  width: 25px;
+  background-color: orangered;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
 .tutorial-number{
     position: absolute;
     font-size: 3em;
-    right: 7em;
+    right: 6em;
     bottom: 1.5em;
     color: white;
-    background: rgba(128, 128, 128, 0.5);
-    width: 3em;
+    background: rgba(128, 128, 128, 0.3);
+    width: 4em;
     padding-left: 0.2em;
     /* padding-right: 0.2em; */
     padding-top: 0.2em;
     padding-bottom: 0.2em;
     border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 .tutorial-text{
     font-size: 13px;
+}
+
+@media (max-width: 933px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+        padding-top: 4em;
+    }
+    .hero-img{
+        padding-left: 4em;
+    }
 }
