@@ -50,3 +50,25 @@ li:hover{
     justify-content: space-between;
     align-items: center;
 }
+
+.hero-texts{
+    color: white;
+    display: grid;
+    gap: 1em;
+}
+.hero-title{
+    font-size: 3.5em;
+}
+span{
+    font: italic;
+}
+.first-paragraph{
+    color: gray;
+}
+.hero-btn{
+    color: white;
+    background-color: transparent;
+    padding: 0.7em 2em;
+    border: 1px solid gray;
+    border-radius: 1em;
+}
