@@ -36,6 +36,7 @@ ul{
     transition: 0.3s ease;
      
 }
+
 li:hover{
     background-color: #E6533C;
     border-radius: 2em;
@@ -59,8 +60,8 @@ li:hover{
 .hero-title{
     font-size: 3.5em;
 }
-span{
-    font: italic;
+.word-italic{
+    font-style: italic;
 }
 .first-paragraph{
     color: gray;
@@ -71,4 +72,47 @@ span{
     padding: 0.7em 2em;
     border: 1px solid gray;
     border-radius: 1em;
+}
+
+.hero-img{
+    position: relative;
+}
+.workout-number{
+    position: absolute;
+    left: 7em;
+    top: 4em;
+    font-size: 3em;
+    color: white;
+    /* background-color:  gray; */
+    background: rgba(128, 128, 128, 0.5);
+    width: 3em;
+    padding-left: 0.2em;
+    /* padding-right: 0.2em; */
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-radius: 1rem;
+    
+}
+.span-hero{
+    font-weight: bold;
+}
+.workout-text{
+    font-size: 13px;
+}
+.tutorial-number{
+    position: absolute;
+    font-size: 3em;
+    right: 7em;
+    bottom: 1.5em;
+    color: white;
+    background: rgba(128, 128, 128, 0.5);
+    width: 3em;
+    padding-left: 0.2em;
+    /* padding-right: 0.2em; */
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-radius: 1rem;
+}
+.tutorial-text{
+    font-size: 13px;
 }
