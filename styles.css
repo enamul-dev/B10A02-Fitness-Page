@@ -193,9 +193,7 @@ h4{
         flex-direction: column;
         padding-top: 4em;
     }
-    .hero-img{
-        padding-left: 4em;
-    }
+    
 }
 .section-two{
     padding-bottom: 7em;
@@ -229,4 +227,21 @@ h4{
 .run-img{
     width: 500px;
     border-radius: 2em;
+}
+
+@media (max-width: 933px){
+    .run-extra-div{
+        display: flex;
+        flex-direction: column;
+        padding-top: 4em;
+        gap: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .run-img{
+        padding: 2em;
+        border-radius: 3em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
 }
