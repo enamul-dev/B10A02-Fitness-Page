@@ -148,3 +148,52 @@ li:hover{
         padding-left: 4em;
     }
 }
+
+.section-two{
+    background-color: black;
+    color: white;
+}
+.habits-head{
+    padding-top: 2em;
+    text-align: center;
+    display:grid ;
+    gap: 1em;
+}
+.habits-divs{
+    display: grid;
+    gap: 4em;
+    padding-top: 2em;
+    padding-bottom: 6em;
+}
+.gym-id{
+    display: flex;
+    gap: 7em;
+    
+}
+.habits-imgs{
+    border-radius: 7em;
+}
+h4{
+    text-align: center;
+}
+.img-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7em;
+}
+.gym-id-paragraph{
+    text-align: center;
+    color: gray;
+}
+
+@media (max-width: 933px){
+    .gym-id{
+        display: flex;
+        flex-direction: column;
+        padding-top: 4em;
+    }
+    .hero-img{
+        padding-left: 4em;
+    }
+}
