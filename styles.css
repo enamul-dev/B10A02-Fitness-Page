@@ -377,6 +377,76 @@ input{
     width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
   border-radius: 2em;
+}
+
+.team-divs{
+    position: relative;
+}
+
+.trainer-name{
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    font-size: 1.5em;
+    color: white;
+}
+.trainer-prof{
+    font-size: 0.7em;
+}
+
+@media (max-width: 933px){
+    .team-container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 4em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    
+}
+footer{
+    background-color: black;
+}
+.footer-spin{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    align-items: center;
+    color: white;
+    
+}
+
+.footer-paragraph{
+    color: gray;
+    padding-top: 1em;
+}
+
+h2{
+    padding-bottom: 1em;
+}
+
+li{
+    list-style: none;
+    padding: 0.5em 0;
+ 
+}
+.footer-li > li{
+color: gray;
+}
+
+
+
+@media (max-width: 933px){
+    .footer-spin{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        gap: 2em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    
+    
 }
