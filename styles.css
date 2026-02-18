@@ -7,7 +7,7 @@
    font-family: "Inter", sans-serif;
 }
 .section-one{
-    background-color: #454444;
+    background-color: #222222;
 }
 .container {
   max-width: 1300px;
@@ -356,6 +356,7 @@ input{
 
 .section-five{
     background: #000;
+    padding-bottom: 7em;
 }
 .team-head{
     text-align: center;
@@ -406,7 +407,8 @@ input{
     
 }
 footer{
-    background-color: black;
+    
+    background-color: #222222;
 }
 .footer-spin{
     display: flex;
