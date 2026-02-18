@@ -197,3 +197,36 @@ h4{
         padding-left: 4em;
     }
 }
+.section-two{
+    padding-bottom: 7em;
+}
+.run-extra-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    padding: 4em;
+    border-radius: 2em;
+    
+}
+.run-header{
+    font-size: 3em;
+}
+.discription-div{
+    display: grid;
+    gap: 2em;
+    
+}
+.Join-btn{
+    color: white;
+    background-color: orangered;
+    padding: 0.9em 4em;
+    border: 1px solid gray;
+    border-radius: 2em;
+    width: 14em;
+    border: none;
+}
+.run-img{
+    width: 500px;
+    border-radius: 2em;
+}
